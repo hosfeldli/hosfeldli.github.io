@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #444;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 3px solid #0066cc;
+}
+
+nav p, nav a {
+    margin: 0;
+    padding: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Splash Section */
+.splash {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.splash h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.splash img {
+    border-radius: 10%;
+    border: 5px solid #333;
+}
+
+.splash p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Horizontal Rules */
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* Paragraph Styles */
+section p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* link styles */
+section a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin: 0;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #0066cc;
+    outline: none;
+}
+
+form button {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005bb5;
+}
